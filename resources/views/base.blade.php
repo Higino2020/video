@@ -48,6 +48,23 @@
             </div>
             <button class="btn btn-primary col-md-2" id="btn"><i class="fas fa-search"></i></button>
         </div>
+        <div class="row">
+            <div class="col-md-4 below col-sm-12 col-xs-12 col-xl-4">
+                <a href="">
+                    <i class="fa fa-"></i>Mais X estudantes inscritos
+                </a>
+            </div>
+            <div class="col-md-4 below col-sm-12 col-xs-12 col-xl-4">
+                <a href="">
+                    <i class="fa fa-"></i>Mais de X Cursos
+                </a>
+            </div>
+            <div class="col-md-4 below col-sm-12 col-xs-12 col-xl-4">
+                <a href="">
+                    <i class="fa fa-"></i>Aprenda em online
+                </a>
+            </div>
+        </div> 
    </div>   
 
     <script src="{{ asset('js/jquery.min.js') }}"></script>
