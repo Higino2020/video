@@ -29,17 +29,17 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
     font-weight: bold;
 }
-#log ul{
+#log span{
     list-style: none;
-    text-align: right;
-}
-#log ul li {
-    margin-right: 20px;
-}
-#log ul li a{
-    margin-right: 14px;
     color: white;
     text-decoration: none;
+    margin-right: 20px;
+}
+    
+#log  a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
 
 }
 #center{
@@ -69,4 +69,17 @@ body {
     font-size: 13px;
     text-decoration: none;
     font-weight: bold;
+}
+#navbarSupportedContent ul{
+    margin-left: 20%;
+}
+#navbarSupportedContent ul li a{
+    color: white;
+    font-size: 18px !important;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#navbarSupportedContent ul li {
+   margin-left: 10%;
 }
