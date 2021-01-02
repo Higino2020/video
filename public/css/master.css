@@ -1,11 +1,11 @@
 
-body {
+.body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
    url("../img/2.jpg");
-    background-attachment: fixed;
     background-size: 100%;
     background-repeat: no-repeat;
     font-family: 'PT Sans', sans-serif;
+    height: 700px;
 }
 #titulo h3{
     font-size: 24px;
@@ -82,4 +82,49 @@ body {
 }
 #navbarSupportedContent ul li {
    margin-left: 10%;
+}
+.topico{
+    height: 700px;
+    margin-top: 5%;
+}
+
+#top1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+    url("../img/2.jpg");
+     background-size: 100%;
+     background-repeat: no-repeat;
+     font-family: 'PT Sans', sans-serif;
+     height: 350px;
+     color: white;
+     font-size: large;
+     font-weight: bold;
+}
+.top2_1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+    url("../img/2.jpg");
+     background-size: 100%;
+     background-repeat: no-repeat;
+     font-family: 'PT Sans', sans-serif;
+     height: 170px;
+     color: white;
+     font-size: large;
+     margin-bottom: 14px;
+}
+.top2_2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+    url("../img/2.jpg");
+     background-size: 100%;
+     background-repeat: no-repeat;
+     font-family: 'PT Sans', sans-serif;
+     height: 170px;
+     color: white;
+     font-size: large;
+     margin-top: 14px;
+}
+
+.top2_1 h4, .top2_2 h4{
+    padding-top: 10%;
+}
+#top1 h4{
+    padding-top: 25%;
 }

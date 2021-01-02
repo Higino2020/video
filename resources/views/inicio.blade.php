@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="{{ asset('css/master.css') }}">
 </head>
 <body>
+  <section class="body">
+
     <nav class="navbar navbar-expand-lg navbar-light" >
         <div class="container-fluid" style="padding-top: 10px !important;">
           <a class="navbar-brand" href="#">Titulo</a>
@@ -91,6 +93,44 @@
             </div>
         </div> 
    </div>   
+  </section>
+  <div class="topico container-fluid">
+      <div class="container text-center" style="margin-bottom: 50px">
+          <h3>Topicos de Cursos</h3>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6" id="top1">
+            <center><h4>Web developer</h4></center>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6" id="top2">
+            <div class="top2_1">
+              <center><h4>
+                MBA Cursos  
+              </h4></center>
+            </div>
+            <div class="top2_2">
+              <center><h4>
+                MBA Cursos  
+              </h4></center>
+            </div>
+        </div>
+      </div>
+      <div class="row" style="margin-top: 50px">
+          <div class="col-md-3 col-sm-12 col-lg-3 top">
+            <img src="{{ asset('img/2.jpg') }}" alt="" style="width: 200px; height: 200px;">
+            
+          </div>
+          <div class="col-md-3 col-sm-12 col-lg-3 top">
+            <img src="{{ asset('img/2.jpg') }}" alt="" style="width: 200px; height: 200px;">
+          </div>
+          <div class="col-md-3 col-sm-12 col-lg-3 top">
+            <img src="{{ asset('img/2.jpg') }}" alt="" style="width: 200px; height: 200px;">
+          </div>
+          <div class="col-md-3 col-sm-12 col-lg-3 top">
+            <img src="{{ asset('img/2.jpg') }}" alt="" style="width: 200px; height: 200px;">
+          </div>
+      </div>
+  </div>
 
 
       <script src="{{ asset('js/jquery.min.js') }}"></script>
